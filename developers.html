@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>National Beach Community</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/Logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html"><i class="fa fa-house"></i>HOME</a></li>
+          <li><a href="links.html">LINKS</a></li>
+          <li><a href="developers.html">DEVELOPERS</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </section>
+  <!------ DEVS PAGE CONTENT ------>
+  <section class="devs">
+    <h1>Developers/Owners</h1>
+    <p>These are some owners/developers here.</p>
+
+    <div class="row">
+      <div class="jobs-col">
+        <img src="images/Developers/Ric.gif">
+          <h3>Riccardo#0914</h3>
+          <p>Owner, Main Developer of the server.</p>
+      </div>
+      <div class="jobs-col">
+        <img src="images/Developers/Av4ari.png">
+          <h3>SweetLikeAri#2704</h3>
+          <p>Owner of server.</p>
+      </div>
+      <div class="jobs-col">
+        <img src="images/Developers/Cats.png">
+          <h3>Cats#9796</h3>
+          <p>Main Developer of website, Main developer of national beach management.</p>
+      </div>
+        <div class="jobs-col">
+        <img src="images/Developers/Tech.png">
+          <h3>Tech#3253</h3>
+          <p>Co-Owner of the server.</p>
+        </div>
+      <div class="jobs-col">
+        <img src="images/Developers/Farts.png">
+          <h3>FARTS_ALOT2004#2052</h3>
+          <p>Co-Owner of the server.</p>
+      </div>
+      <div class="jobs-col">
+        <img src="images/Developers/Tigerkat.png">
+          <h3>tigerkat#1832</h3>
+          <p>Main Developer of game.</p>
+      </div>
+  </section>
+  <!------ FOOTER ------>
+  <section class="footer">
+    <h4>Copyright Claims</h4>
+    <p></p>
+    <div class="icons">
+      <h3><a href="https://www.youtube.com/channel/UCtP5qRg5_BA1D9PFTM2bZQg"><i class="fa fa-youtube"></i></a></h3>
+      <h3><a href="https://discord.gg/CaBd2zBZxW">Discord</h3>
+    </div>
+  </section>
+
+  <!------ JAVASCRIPT FOR NAVLINKS ------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0"
+      navLinks.style.background = "#f44336"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+      navLinks.style.background = "transparent"
+    }
+  </script>
+</body>
+</html>
