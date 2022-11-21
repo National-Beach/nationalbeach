@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>National Beach Community</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/Logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="links.html">LINKS</a></li>
+          <li><a href="developers.html">DEVELOPERS</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>National Beach Community</h1>
+      <p>🏄 Swim along the waves, role-play, or get a job! The choice is yours here at National Beach.<br>🌊 Interested
+        in working at the beach? Head over to the Roblox group and join it, then start your career!</p>
+      <a href="" class="join-btn">Join today!</a>
+    </div>
+  </section>
+
+  <!------ OFFER ------>
+  <section class="offer">
+    <h1>What we offer here!</h1>
+    <p>What we offer here at national beach.</p>
+    <div class="row">
+      <div class="offer-col">
+        <h3>Amazing Staff!</h3>
+      </div>
+      <div class="offer-col">
+        <h3>24/7 role-plays!</h3>
+      </div>
+    </div>
+    <div class="offer-col">
+      <h3>A nice relaxing beach.</h3>
+    </div>
+    </div>
+  </section>
+  <!------ JOBS ------>
+  <section class="jobs">
+    <h1>Our departments here.</h1>
+    <p>These are some departments here!</p>
+
+    <div class="row">
+      <div class="jobs-col">
+        <img src="images/Banner.png">
+        <div class="layer">
+          <h3>Development Team</h3>
+        </div>
+      </div>
+      <div class="jobs-col">
+        <img src="images/Banner.png">
+        <div class="layer">
+          <h3>Moderation Team</h3>
+        </div>
+      </div>
+      <div class="jobs-col">
+        <img src="images/Banner.png">
+        <div class="layer">
+          <h3>Appeals Team</h3>
+        </div>
+    </div>
+      <div class="jobs-col">
+        <img src="images/Banner.png">
+        <div class="layer">
+          <h3>PR Team</h3>
+          <p>Public Relations Teams, PR is for short.</p>
+        </div>
+      </div>
+  </section>
+  <!------ LINKS ------>
+  <section class="links">
+    <h1>Our links!</h1>
+    <p>These are all the links. Note: If banned please go to the appeal server.</p>
+    <div class="row">
+      <div class="links-col">
+        <h3><a href="https://discord.gg/CaBd2zBZxW">Main Server</a> | <a href="https://discord.gg/nationalbeach">Main
+            Server Vanity</a></h3>
+      </div>
+      <div class="links-col">
+        <h3><a href="https://discord.gg/VSynMCGcQW">Appeal Server</a></h3>
+      </div>
+      <div class="links-col">
+        <h3><a href="https://discord.gg/vNNm8Uv4pZ">Moderation Server</a></h3>
+      </div>
+      <div class="links-col">
+        <h3><a href="https://discord.gg/2e6GfZEMCP">Public Relations Server</a></h3>
+      </div>
+    </div>
+  </section>
+  <!------ FOOTER ------>
+  <section class="footer">
+    <h4>Copyright Claims</h4>
+    <p></p>
+    <div class="icons">
+      <a href="https://www.youtube.com/channel/UCtP5qRg5_BA1D9PFTM2bZQg"><i class="fa fa-youtube"></i></a>
+      <a href="https://discord.gg/CaBd2zBZxW">Discord</a>
+    </div>
+  </section>
+
+  <!------ JAVASCRIPT FOR NAVLINKS ------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0"
+      navLinks.style.background = "#f44336"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+      navLinks.style.background = "transparent"
+    }
+  </script>
+</body>
+
+</html>
