@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>National Beach Community</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/Logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html"><i class="fa fa-house"></i>HOME</a></li>
+          <li><a href="links.html">LINKS</a></li>
+          <li><a href="developers.html">DEVELOPERS</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Links</h1>
+  </section>
+  <!------ DEVELOPERS ------>
+  <section class="developers">
+    <div class="row">
+      <h3>Our developers.</h3>
+    </div>
+  </section>
+  <!------ FOOTER ------>
+  <section class="footer">
+    <h4>Copyright Claims</h4>
+    <p></p>
+    <div class="icons">
+      <h3><a href="https://www.youtube.com/channel/UCtP5qRg5_BA1D9PFTM2bZQg"><i class="fa fa-youtube"></i></a></h3>
+      <h3><a href="https://discord.gg/CaBd2zBZxW">Discord</h3>
+    </div>
+  </section>
+
+  <!------ JAVASCRIPT FOR NAVLINKS ------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0"
+      navLinks.style.background = "#f44336"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+      navLinks.style.background = "transparent"
+    }
+  </script>
+</body>
+</html>
